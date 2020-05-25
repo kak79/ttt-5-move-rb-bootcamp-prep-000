@@ -5,10 +5,12 @@ require_relative '../lib/move.rb'
 #Welcome to Tic Tac Toe!
 puts "Hi! Welcome to Tic-Tac-Toe!"
 
-#Where would you like to go?
-puts "Where would you like to go?"
+
 
 board = [" "," "," "," "," "," "," "," "," "]
+
+
+
 
 #We need to store the user's input. Use `gets.strip` to store their input to a variable, `input`.
 input = gets.strip
